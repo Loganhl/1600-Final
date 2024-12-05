@@ -35,6 +35,12 @@ In this scenario, this injection attack would return the attacker information re
 
 Now that you know a basis of SQL Injection, let's look into ways that we can prevent our databases and frameworks from being easily infiltrated. Below you will find a few different methods of Injection Prevention, with attached markdown pages going further in-depth.
 
+**Input Validation**
+Validating a users input is a simple and effective way of preventing SQL Injection. This is through creating a system of filtration that is used to check user input before it is sent further into the code to be processed. <br>
+
+[Input Validation Example](https://github.com/Loganhl/SQL-Injection-Prevention/blob/main/validation.md)
+
+
 **Parameterized Queries (Prepared Statements)**
 Parameterized Queries are a common practice to preventing SQL Injection. This is achieved through seperating user inputs from the SQL queries through prepared statements or parameterized queries! In the page below I will show you examples of how to accomplish this.<br>
 
