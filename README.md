@@ -36,3 +36,4 @@ Now that you know a basis of SQL Injection, let's look into ways that we can pre
 
 **Parameterized Queries (Prepared Statements)**
 Parameterized Queries are a common practice to preventing SQL Injection. This is achieved through seperating user inputs from the SQL queries through prepared statements or parameterized queries! In the page below I will show you examples of how to accomplish this.
+[Parameterized Queries Example](https://github.com/Loganhl/SQL-Injection-Prevention/blob/main/parameterized.md)
