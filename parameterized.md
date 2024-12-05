@@ -26,6 +26,7 @@ This code is vulnerable to injection as it would create a query that looks like 
 <ins>Parameterized Code</ins><br>
 To fix this code, we can easily adjust how the user_input is being passed to the query through parameterization! With the code below we are using the character ? to handle the user input, which essentially is taking the input and parameterizing it. The user input will be rendered as a string for the purpose of the SQL query instead of readable code.<br>
 
+    user_input = "Decorations'; DROP TABLE Products; --"
     query = "SELECT ProductName, ProductDesc, Price FROM Products WHERE ItemName = ?"
 	cursor.execute(query, (user_input,))
 
