@@ -2,12 +2,14 @@
 *By Logan Limbaugh*
 
 <ins>Overview</ins><br>
+
 This is a comprehensive guide on techniques and practice to prevent your databases from SQL Injection, a highly common method of cyber attacks that can steal, manipulate, and destroy data.
 
 The target audience for this guide are beginning developers who wish to understand SQL injection and it's effects as well as ways to prevent it!
 
 ---
-<ins>What is SQL Injection</ins>
+<ins>What is SQL Injection</ins><br>
+
 SQL Injection is a type of cyber attack that involves the user taking advantage of vulnerabilities in code or in databases to edit, steal, or destroy data within the database. This attack is often performed through users inserting SQL queries into input fields within code. For example when a user is prompted with an input field within an application to search for something, they may enter "Decorations" resulting in a query like this:
 
     SELECT ProductName, ProductDesc, Price
