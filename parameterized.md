@@ -8,6 +8,7 @@ Parameterized Queries are a common practice to preventing SQL Injection. This is
 For the purpose of this guide, all examples will be given in Python.
 
 ---
+
 <ins>Vulnerable Code</ins><br>
 The code below is vulnerable to SQL injection as it directly takes the user input and places it within the query. For this code, assume that the user_input variable is collected from a form, and the SQL code is the code designed to process their search with the database.<br>
 
@@ -19,6 +20,8 @@ The code below is vulnerable to SQL injection as it directly takes the user inpu
 This code is vulnerable to injection as it would create a query that looks like this, succesfully injecting into the database and deleting the table "Products".<br>
 
     SELECT ProductName, ProductDesc, Price FROM Products WHERE ItemName = 'Decorations'; DROP TABLE Products; --'
+    
+---
 
 <ins>Parameterized Code</ins><br>
 To fix this code, we can easily adjust how the user_input is being passed to the query through parameterization! With the code below we are using the character ? to handle the user input, which essentially is taking the input and parameterizing it. The user input will be rendered as a string for the purpose of the SQL query instead of readable code.<br>
