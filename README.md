@@ -1,7 +1,7 @@
 ## Preventing SQL Injection When Coding
 *By Logan Limbaugh*
 
-<ins>Overview</ins>
+<ins>Overview</ins><br>
 This is a comprehensive guide on techniques and practice to prevent your databases from SQL Injection, a highly common method of cyber attacks that can steal, manipulate, and destroy data.
 
 The target audience for this guide are beginning developers who wish to understand SQL injection and it's effects as well as ways to prevent it!
