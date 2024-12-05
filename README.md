@@ -1,4 +1,4 @@
-<span style="color:blue">## Preventing SQL Injection When Coding</span>.
+## Preventing SQL Injection When Coding
 *By Logan Limbaugh*
 
 <ins>Overview</ins><br>
