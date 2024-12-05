@@ -33,3 +33,7 @@ This code would generate an SQL statement that is no longer malicious.<br>
 
     SELECT ProductName, ProductDesc, Price FROM Products WHERE ItemName = 'Decorations''; DROP TABLE Products; --'
 
+---
+
+Return to the Main Page -> [Here](https://github.com/Loganhl/SQL-Injection-Prevention/blob/main/README.md)
+
