@@ -49,3 +49,7 @@ Validating a users input is a simple and effective way of preventing SQL Injecti
 Very similar to Input Validation, Input Escaping is filtering specific characters within an input and changing them so that we can prevent SQL Injection.<br>
 
 [Input Escaping Example](https://github.com/Loganhl/SQL-Injection-Prevention/blob/main/escape.md)
+
+---
+
+Thanks for making your way through the guide! To take advantage of what you have learned here keep these simple, yet highly effective techniques in mind when working with user inputs and SQL databases! Whilst these are not the only effective measures, I encourage you to seek out other methods of securing your code and practicing programming with cybersecurity in mind!
