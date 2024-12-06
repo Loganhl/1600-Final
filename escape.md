@@ -2,10 +2,7 @@
 *By Logan Limbaugh*
 
 ### <ins>Overview</ins><br>
-Input Validation is the process of validating or filtering a users input to remove malicious characters or text and creating a system of regulation to ensure a users input is correct!
-
-For the purpose of this guide, all examples will be given in Python.
-
+Input escaping is the process of filtering  through a users input to change specific characters commonly used in injection, in this case ' and ". 
 --- 
 
 ### <ins>Vulnerable Code</ins><br>
