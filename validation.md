@@ -23,7 +23,7 @@ This code is vulnerable to injection as it would create a query that looks like 
 ---
 
 ### <ins>Code with Input Validation</ins><br>
-To add input validation to our code, we can simply create a system of filtering through the user input and removing common characters or words used to perform SQL injection. Below I have created a simple function that ensures that the users input only contains uppercase, lowercase, and numeric characters. I have also included parameterization, which we learned in the previous guide!
+To add input validation to our code, we can simply create a system of filtering through the user input and removing common characters or words used to perform SQL injection. Below I have created a simple function that ensures that the users input only contains uppercase, lowercase, and numeric characters. I have also included parameterization, which we learned in the previous guide! In the code below, the query would fail to execute as it would be flagged, therefore printing our error message!
 	
 	user_input = "Decorations'; DROP TABLE Products; --" 
 
