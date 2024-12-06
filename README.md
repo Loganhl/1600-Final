@@ -1,4 +1,4 @@
-## Preventing SQL Injection When Coding
+## 3 Easy Ways to Prevent SQL Injection When Coding
 *By Logan Limbaugh*
 
 <ins>Overview</ins><br>
@@ -44,3 +44,8 @@ Parameterized Queries are a common practice to preventing SQL Injection. This is
 Validating a users input is a simple and effective way of preventing SQL Injection. This is through creating a system of filtration that is used to check user input before it is sent further into the code to be processed. <br>
 
 [Input Validation Example](https://github.com/Loganhl/SQL-Injection-Prevention/blob/main/validation.md)
+
+**Input Escaping**
+Very similar to Input Validation, Input Escaping is filtering specific characters within an input and changing them so that we can prevent SQL Injection.<br>
+
+[Input Escaping Example](https://github.com/Loganhl/SQL-Injection-Prevention/blob/main/escape.md)
