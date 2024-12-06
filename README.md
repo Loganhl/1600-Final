@@ -5,7 +5,7 @@
 
 This is a comprehensive guide on techniques and practice to prevent your databases from SQL Injection, a highly common method of cyber attacks that can steal, manipulate, and destroy data.
 
-The target audience for this guide are developers who have a general or beginning understanding of SQL database management, SQL Queries, and programming who wish to understand SQL injection and it's effects as well as ways to prevent it!
+The target audience for this guide are developers who have a general or beginning understanding of SQL database management, SQL Queries, and programming, who wish to understand SQL injection and it's effects as well as ways to prevent it!
 
 ---
 ### <ins>What is SQL Injection</ins><br>
