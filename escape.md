@@ -20,21 +20,16 @@ This code is vulnerable to injection as it would create a query that looks like 
 ---
 
 ### <ins>Code with Input Validation</ins><br>
-To add input validation to our code, we can simply create a system of filtering through the user input and removing common characters or words used to perform SQL injection. Below I have created a simple function that ensures that the users input only contains uppercase, lowercase, and numeric characters. I have also included parameterization, which we learned in the previous guide!
+To add input escaping into our code, we want to filter through the user input and change injection characters such as ' or " to be replaced with double of their initial value. I have also included parameterization, which we learned in the previous guide!
 	
 	user_input = "Decorations'; DROP TABLE Products; --" 
 
-	def validate_input(user_input): 
-		if user_input.isalnum(): 
-			return True 
-		else: 
-			return False
+	def escape_input(user_input): 
+		return user_input.replace("'", "''")
 			
-	if validate_input(user_input):
-		query = "SELECT ProductName, ProductDesc, Price FROM Products WHERE ItemName = ?"
-		cursor.execute(query, (user_input,)) 
-	else: 
-		print("Error: Invalid input!")
+	user_input = escape_input(user_input)
+	query = "SELECT ProductName, ProductDesc, Price FROM Products WHERE ItemName = ?"
+	cursor.execute(query, (user_input,)) 
 
 ---
 
