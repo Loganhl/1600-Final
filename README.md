@@ -52,4 +52,6 @@ Very similar to Input Validation, Input Escaping is filtering specific character
 
 ---
 
+<ins>Conclusion</ins><br>
+
 Thanks for making your way through the guide! To take advantage of what you have learned here keep these simple, yet highly effective techniques in mind when working with user inputs and SQL databases! Whilst these are not the only effective measures, I encourage you to seek out other methods of securing your code and practicing programming with cybersecurity in mind!
